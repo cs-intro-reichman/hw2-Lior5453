@@ -5,7 +5,7 @@ public class Cheers
         String inputWord = args[0];
         int numPrints = Integer.parseInt(args[1]);
 
-        String printA = "AEFHILMNORSX";
+        String printA = "AEFHILMNORSXaefhilmmorsx";
         //{'A', 'E', 'F', 'H', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'X'}
 
         for (int i = 0; i < inputWord.length(); i++)
