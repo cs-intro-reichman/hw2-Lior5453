@@ -1,11 +1,13 @@
+// This function gets a word and prints it into the correct pattern
 public class Cheers
 {
     public static void main(String[] args)
     {
         String inputWord = args[0];
+        inputWord = inputWord.toUpperCase(); // Making all the word upper cased
         int numPrints = Integer.parseInt(args[1]);
-
-        String printA = "AEFHILMNORSXaefhilmmorsx";
+        
+        String printA = "AEFHILMNORSX"; // making a string to check if to print a or an - depends on the letter
         //{'A', 'E', 'F', 'H', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'X'}
 
         for (int i = 0; i < inputWord.length(); i++)
