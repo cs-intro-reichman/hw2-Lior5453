@@ -29,10 +29,8 @@ public class Collatz
 			}
 			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
 		}
-		else // "c" 
+		else // "c" - if 1 isnt reach it will be infinite loop in the do while, so no point of adding additional things
 		{
-			boolean reach1 = true;
-			
 			for (int i = 1; i <= N; i++)
 			{
 				int currentNum = i;
@@ -48,11 +46,7 @@ public class Collatz
 					}
 				} while (currentNum != 1);
 			}
-
-			if (reach1)
-				System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
-			else
-				System.out.println("An error was accured, 1 wasn't reached");
+			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
 		}
 	}
 }
