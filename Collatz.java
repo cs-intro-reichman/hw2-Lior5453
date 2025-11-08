@@ -25,7 +25,7 @@ public class Collatz
 					}
 					count++;	
 				} while (currentNum != 1);
-				System.out.println("1 (" + count + ")");
+				System.out.println("1 (" + count + ") ");
 			}
 		}
 		else // "c" 
