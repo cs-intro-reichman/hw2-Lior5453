@@ -27,6 +27,7 @@ public class Collatz
 				} while (currentNum != 1);
 				System.out.println("1 (" + count + ") ");
 			}
+			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
 		}
 		else // "c" 
 		{
