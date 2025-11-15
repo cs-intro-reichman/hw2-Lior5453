@@ -1,3 +1,9 @@
+
+/*
+Feedback
+	Great that youre adding comments.
+*/
+
 // Computes an approximation of PI.
 public class CalcPi 
 {
@@ -15,4 +21,5 @@ public class CalcPi
 		System.out.println("pi according to Java: " + Math.PI); // priniting PI
 		System.out.println("pi, approximated:     " + newPI); // printing new PI
 	}
+
 }
