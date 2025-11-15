@@ -19,4 +19,7 @@ public class TimeCalc
         newMinutes = newMinutes % 60;
         System.out.printf("%02d:%02d", newHours, newMinutes); //using printf to change to 2 numbers if needed
     }
+
 }
+
+// Its great that you add comments!
