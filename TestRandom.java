@@ -24,4 +24,6 @@ public  class  TestRandom
 		if (ratio != 0)
 			System.out.println("Ratio:  " + ratio);
 	}
+
 }
+// Great Namings!
