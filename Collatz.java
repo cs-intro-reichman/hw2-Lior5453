@@ -1,3 +1,9 @@
+/*
+Feedback: 
+Great job with choosing 'do while' function :)
+Notice that mode c and mode v do the same thing, so maybe we can find a way not to duplicate code.
+*/
+
 // Demonstrates the Collatz conjecture.
 public class Collatz 
 {
@@ -49,4 +55,5 @@ public class Collatz
 			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
 		}
 	}
+
 }
