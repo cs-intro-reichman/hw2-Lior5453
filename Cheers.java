@@ -1,3 +1,8 @@
+/*
+Feedback: 
+Great namings and code organization :)
+*/
+
 // This function gets a word and prints it into the correct pattern
 public class Cheers
 {
@@ -25,4 +30,5 @@ public class Cheers
             System.out.printf("%s!!!\n", inputWord);
         }
     }
+
 }  
